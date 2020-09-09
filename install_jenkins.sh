@@ -20,5 +20,6 @@ cat /var/lib/jenkins/secrets/initialAdminPassword
 
 #use this key and paste it in the other servers
 
+sudo yum install java-1.6.0-openjdk-devel
 
 #rsync -av /var/lib/jenkins/workspace/scala-dev-compile/* /home/scala_play
